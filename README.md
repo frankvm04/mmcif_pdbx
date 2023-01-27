@@ -8,7 +8,7 @@ This is yet another PyPI package for http://mmcif.wwpdb.org/pdbx-mmcif-home-page
 It emphasizes a simple and pure Python interface to basic mmCIF functionality.
 
 The canonical mmCIF Python package can be found at https://github.com/rcsb/py-mmcif.
-It is full-featured and includes C/C++ code to accelerate I/O functions.  
+It is full-featured and includes C/C++ code to accelerate I/O functions.
 
 ## Origin of this software
 
@@ -18,12 +18,16 @@ See http://mmcif.wwpdb.org/docs/sw-examples/python/html/ for more information ab
 
 ## Versions
 
-Versions 0.* maintain API compatibility with the original code.
+Versions 0.\* maintain API compatibility with the original code.
 Subsequent versions break that compatibility, primarily by renaming methods in compliance with PEP8.
 
 ## Installing this software
 
 This python package can be installed via [setuptools](https://pypi.org/project/setuptools/), `pip install .`, or via [PyPI](https://pypi.org/project/mmcif-pdbx/).
+
+## Testing
+
+Testing setup to use pytest. invoke from repo root directory
 
 ## More information about this software
 
